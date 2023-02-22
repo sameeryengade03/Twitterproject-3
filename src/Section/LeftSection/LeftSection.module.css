@@ -1,0 +1,60 @@
+@media screen and (min-width : 700px){
+.left{
+    /* flex: 1; */
+    padding-top: 0.5rem;
+    /* border: 1px solid; */
+    
+    position: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    width: 16rem;
+   padding-left: 9rem ;
+  
+}
+
+
+.twitterIcon{
+    font-size: 1.8rem;
+    color : #00acee;
+    border-radius: 50%;
+    width: max-content;
+    padding: 0.4rem 0.8rem;
+}
+
+.twitterIcon:hover{
+    background-color: rgb(40, 40, 232,0.1);
+}
+.icon{
+    font-size: 1.5rem;
+}
+
+.textWrapper{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+   width: max-content;
+   height: max-content;
+   border-radius: 1.3rem;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.textWrapper:hover{
+    background-color: rgba(202, 202, 202, 0.5);
+  
+}
+.text{
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+.btn{
+    margin-top: 0.8rem;
+}
+.popover{
+    margin-top: 6rem;
+}
+  
+}

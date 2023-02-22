@@ -1,0 +1,15 @@
+
+    
+
+
+.main{
+ flex: 1;
+ margin-left: 1.8rem;
+ margin-top: 0.3rem;
+
+}
+
+.Follow{
+    position: sticky;
+    top:-30rem
+}

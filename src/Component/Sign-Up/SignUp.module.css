@@ -1,0 +1,300 @@
+.mainBox{
+  background-color: #ff0000;
+}
+    .container {
+      /* border: 1px solid; */
+      display: flex;
+      flex-direction: column;
+      justify-content: n;
+      align-items: center;
+      width: 37rem;
+      height: 40rem;
+      padding-top: 0.5rem;
+      /* text-align: center; */
+    }
+  
+    .heading {
+      font-size: 2rem;
+      line-height: calc(36rem / 16);
+      text-align: center;
+      font-family: "Arial";
+    }
+    .btn {
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      width: 50%;
+      border-radius: 20px;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.6rem 0;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      border: 0.01rem solid grey;
+    }
+  
+    .btn:hover {
+      background-color: rgb(228, 225, 225);
+    }
+    .btnNext {
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      width: 50%;
+      border-radius: 20px;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.6rem 0;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      border: 0.01rem solid grey;
+    }
+  
+    .btnNext:hover {
+      background-color: rgb(35, 35, 35);
+    }
+    .or {
+      font-size: 1.2rem;
+    }
+   
+   
+    .mainNextContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      /* border: 1px solid; */
+      height: 38rem;
+    }
+    .nextContainer {
+      /* border:0.1rem solid; */
+      display: flex;
+      flex-direction: column;
+    }
+    .inputUserName {
+      width: 25rem !important;
+      height: 2.5rem;
+      margin-top: 1rem !important;
+      padding-left: 1rem;
+      font-size: 1.1rem;
+      width: 18.75rem;
+      border: 1px solid lightgray;
+      border-radius: 0.2rem;
+    }
+    .inputUser {
+      width: 25rem !important;
+      height: 2.5rem !important;
+      margin-top: 1rem !important;
+      padding-left: 1rem;
+      font-size: 1.1rem;
+      width: 18.75rem;
+      border: 1px solid lightgray;
+      border-radius: 0.2rem;
+    }
+    .inputUserName:focus {
+      outline: 0.1rem solid #00acee;
+    }
+    .inputUser:focus {
+      outline: 0.1rem solid #ff0000;
+    }
+  
+    .ForgotText {
+      color: #00acee;
+      font-size: 0.9rem;
+      /* border: 1px solid; */
+      text-align: end;
+      font-weight: bolder;
+      width: 26rem;
+      cursor: pointer;
+    }
+    .ForgotText:hover{
+        text-decoration: underline;
+
+    }
+    .btnLogin {
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      width: 26rem !important;
+      height: 3rem !important;
+      border-radius: 27px;
+      margin-top: 1rem;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      border: 0.01rem solid grey;
+    }
+    .btnLoginDisable {
+      background-color: rgb(0, 0, 0, 0.5);
+      color: rgb(255, 255, 255);
+      width: 28rem !important;
+      height: 3.5rem !important;
+      border-radius: 27px;
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      border: 0.01rem solid grey;
+    }
+    .termsCondition{
+        width: 20rem;
+        font-size: 0.8rem;
+    }
+    .termsCondition a{
+        color: #00acee ;
+        text-decoration: none;
+    }
+    .link{
+      text-decoration: none;
+      color:#00acee ;
+    }
+    .container p {
+        margin-top: 1.8rem;
+    }
+
+    .dobContainer{
+     display: flex;
+     flex-direction: column;
+     width: 25rem;
+     margin-top: 1rem;
+     /* border: 1px solid; */
+     margin-left: 1rem;
+    }
+    .maindobText{
+      font-weight: bolder;
+    }
+    .dobText{
+        /* margin-top: 1rem; */
+        /* width: 23rem; */
+        font-size: 0.9rem;
+
+    }
+    .selectBox{
+        /* border: 1px solid; */
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 0.7rem;
+    }
+    .select{
+      
+        width: 8rem;
+        height: 2rem;
+    }
+    .error{
+        font-size: 0.8rem;
+        color: red;
+    }
+    .DialogWrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(13, 13, 13, 0.5);
+      height: 100vh;
+      
+    }
+    .Dialog{
+      border: 1px solid;
+      border-radius: 30px;
+      margin-top: 0.5rem;
+      background-color: white;
+      box-shadow: 0 0 8px 8px  rgba(92, 92, 92, 0.8); 
+     
+      
+  
+    }
+    
+  
+
+
+  /* Mobile CSS */
+
+  @media screen and (max-width : 699px) {
+    .container{
+      /* background-color: #00acee; */
+      width: 18rem;
+      /* border: 1px solid; */
+      /* height: 80vh; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      /* margin-top: 1.5rem; */
+    }
+    .orLine{
+      display: none;
+    }
+    .termsCondition{
+      width: 16rem;
+    }
+    .btnLogin{
+      width: 13rem !important;
+      height: 2.2rem;
+       border-radius: 20px;
+       margin-left: 2.5rem;
+    }
+    .btn{
+      width: 13rem !important;
+      height: 2.2rem;
+       border-radius: 20px;
+       /* margin-left: 2.5rem; */
+    }
+    .inputUser{
+      width: 15rem !important;
+      height: 2.5rem;
+    } 
+    .select{
+      width: 4rem;
+    }
+    .heading{
+      font-size: 1.3rem;
+    }
+    .inputUserName{
+      width: 15rem !important;
+        height: 2.5rem;
+        /* margin-left: 4rem; */
+        font-size: 0.8rem;
+    }
+    .btnLoginDisable{
+      width: 13rem !important;
+      height: 1.2rem;
+      margin-left: 2.5rem;
+    }
+    .maindobText{
+      margin-left: 4rem;
+      font-size: 1rem;
+    }
+    .dobText{
+      width: 17rem;
+      margin-left: 4rem;
+      font-size: 0.7rem;
+    }
+    .mainNextContainer{
+      height: 73vh;
+     }
+    .nextContainer{
+      /* margin-left: 1rem; */
+      align-items: center;
+      width: 18rem;
+    }
+    .ForgotText{
+      /* width: 10rem; */
+      margin-left: -12rem;
+    }
+    .footer{
+      margin-top: -0.25rem;
+    }
+    .eye{
+      display: none;
+    }
+    .DialogWrapper{
+      background-color: white;
+    }
+    .Dialog{
+    box-shadow: none;
+    border: none;
+    }
+    
+  }

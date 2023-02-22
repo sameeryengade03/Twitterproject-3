@@ -1,0 +1,157 @@
+.main{
+    display: flex;
+    position: relative;
+}
+
+/* mobile leftdrawer */
+.mobileLeftSec{
+    display: none;
+}
+.mobileAccount{
+    display: flex;
+    border: 1px solid white;
+    justify-content: space-around;
+    gap: 8rem;
+    align-items: center;
+}
+.crossIcon{
+    font-size: 2rem;
+}
+.mobileArray{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    gap: 7rem;
+}
+.profilePic{
+    width: 16vw;
+}
+.userName{
+    display: flex;
+    flex-direction: column;
+    color : #00acee;
+    text-shadow: 1px 1px black;
+}
+.userName b{
+    font-size: 1.3rem;
+}
+.addIcon{
+    font-size: 4rem;
+}
+.follow{
+ display: flex;
+ padding-left: 1rem;
+ gap: 7rem;
+ border-bottom: 1px solid rgb(255, 255, 255);
+}
+.icon{
+    font-size: 2rem;
+}
+.textWrapper{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+   width: max-content;
+   height: max-content;
+   border-radius: 1.3rem;
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    padding-top: 2.5rem;
+}
+.textWrapper:hover{
+    background-color: rgba(202, 202, 202, 0.5);
+  
+}
+.text{
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.footer{
+    margin-top: 1rem;
+    border-bottom: 1px solid rgb(174, 174, 174);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+.logoutBox{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.logout{
+   
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;  
+}
+.logoutUser{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color : #00acee;
+    text-shadow: 1px 1px black;
+}
+/* movile tweet button */
+.tweetButton{
+    display: none;
+    position: fixed;
+  right: 10%;
+  bottom: 10%;
+
+  
+}
+
+.mobileFooter{
+    display: none;
+    position: fixed;
+  /* right: 10%; */
+  bottom: 0%;
+}
+
+@media screen and (max-width :700px) {
+   .left{
+    display: none;
+   }
+   .right{
+    display: none;
+   }
+   .mobileLeftSec{
+    display: unset;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+   }
+   .mobileLeftSecCont{
+    position: fixed;
+    top: 0rem;
+    background: white;
+    width: 110vw;
+    height: 191vh;
+   }
+
+   /* mobile tweet button */
+   .tweetButton{
+    display: block;
+    position: fixed;
+  right: 5%;
+  bottom: 16%;
+  z-index: 1000;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+
+  
+}
+
+.mobileFooter{
+    display: unset;
+    width: 100%;
+   
+}
+.icons{
+    font-size: 3.5rem;
+}
+}

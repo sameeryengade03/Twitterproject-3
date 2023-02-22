@@ -1,0 +1,122 @@
+
+    
+
+
+.inputContainer{
+    border: 1px solid rgb(226, 226, 226);
+    padding: 0rem 0.5rem;
+}
+
+.subContainer{
+    display: flex;
+    justify-content: flex-start;
+    width: 36rem;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+.avatar{
+    /* font-size: 3.5rem; */
+    color:#9e9e9e;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+ /* margin-left: 1rem; */
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.inputBox{
+    width: 28rem;
+    /* height: 4rem; */
+    resize: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px solid;
+}
+.inputBox:focus{
+    outline: none;
+}
+
+.evryOnebtn{
+    width: 6rem;
+    border-radius: 5rem;
+    height: 1.3rem;
+    color: #008ac1;
+    /* margin-top: 0rem; */
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    padding: 0;
+    background-color: white;
+    border: 0.01rem solid rgb(196, 195, 195);
+
+}
+.evryOnebtnEartch{
+    color: #008ac1;
+    margin-left: 4rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 0.1rem solid rgb(241, 241, 241);
+    width: 28rem;
+    padding-bottom: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-weight: 500;
+}
+.tweetPushbtn{
+    width: 5.5rem;
+    background-color: #00acee;
+    color: white;
+    height: 2.2rem;
+    border-radius: 5rem;
+    font-size: 1rem;
+    font-weight: 100;
+    border: none;
+}
+.iconBtnWrapper{
+    display: flex;
+    gap: 14rem;
+    margin-bottom: 0.5rem;
+}
+.iconBtn{
+    display: flex;
+    gap: 1rem;
+    margin-left: 5.5rem;
+}
+.iconss{
+    font-size: 1.2rem;
+    color: #008ac1;
+}
+.showMore{
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+    border-top: 1px solid rgb(214, 214, 214);
+}
+.showMore:hover{
+    background-color:rgba(232, 232, 232, 0.5) ;
+}
+.showMoreBtn{
+    width: 18rem !important;
+    /* height: 4rem; */
+    font-size: 1rem;
+    background-color: white;
+    color: #008ac1;
+    border: none;
+    z-index: -1;
+}
+.inputBoxImage{
+    margin-left: 5rem;
+    width: 30rem;
+}
+
+@media screen and (max-width : 700px) {
+    .inputContainer{
+        display: none;
+    }
+    .mobileTweetbtn{
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+    }
+}

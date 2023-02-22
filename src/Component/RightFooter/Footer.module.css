@@ -1,0 +1,11 @@
+.main{
+    margin-top: 1rem;
+    padding-left: 0.8rem;
+}
+
+.main p{
+ color: rgb(135, 134, 134);
+ margin-top: -0.6rem;
+ font-size: 0.8rem;
+ font-weight: 500;
+}

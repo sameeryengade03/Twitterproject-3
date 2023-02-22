@@ -1,0 +1,144 @@
+
+.main{
+ /* flex: 1.1; */
+ border: 1px solid rgb(214, 213, 213);
+ margin-left: 25.08rem;
+ width: 36rem;
+}
+.mobilePic{
+    display: none;
+}
+.subMain{
+    background-color: rgb(255, 255, 255 ,0.899);
+    border: 1px solid rgb(255, 255, 255 ,0.5);
+    height: 7.5rem;
+    margin-top: -0.8rem;
+    position: sticky;
+    top: 0;
+}
+.head{
+    margin-left: 1rem;
+    font-size: 1.35rem;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.forYou{
+    border: 1px solid rgba(214, 214, 214, 0.5);
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    padding-top: 0.6rem;
+    margin-top: -0.6px;
+    cursor:pointer;
+}
+.forYou:hover{
+    background-color: rgba(214, 214, 214, 0.5);
+}
+.postContainer{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    border: 1px solid  rgba(214, 214, 214, 0.5);
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.userProfle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.postSubContainer{
+    display: flex;
+    flex-direction: column;
+}
+.postUserName{
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+.postHandleName{
+    color: rgb(91, 89, 89);
+}
+.tweetPic{
+    border-radius: 1.1rem;
+    margin-top: 1rem;
+}
+.iconsWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 2rem;
+} 
+.subIconsWrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.icons{
+    color: gray;
+    font-size: 1.1rem;
+}
+.iconText{
+    color: gray;
+    font-size: 0.8rem;
+}
+.heartIcon{
+    color: rgb(255, 3, 3);
+    font-size: 1.1rem;
+}
+.mobileTweet{
+    display: none;
+}
+.blur{
+    background-color: rgba(227, 224, 224, 0.3);
+    filter: blur(2px);
+}
+@media screen and (max-width: 700px ) {
+    .main{
+        margin-left: 0px;
+    }
+    .subMain{
+        border: none;
+    }
+    .head{
+        display: none;
+    }
+    .mobilePic{
+        display: unset;
+        width: 3rem;
+        padding-left: 1.5rem;
+    }
+    .wrapper{
+        height: 4rem;
+        padding-top: 1rem;
+    }
+    .mobileTweet{
+        height: 12vh;
+    display: block;
+    position: fixed;
+    top: 40rem;
+    left: 23rem;
+    background-color: brown;
+    width: 10rem;
+    border: 1px solid;
+    }
+    .forYou{
+        font-size: 1.5rem;
+       
+    }
+    .subMain{height: 22vh;}
+}
+
+/* @media screen and ((min-width: 360px) and (max-width: 768px)){
+    .mobileTweet{
+        height: 12vh;
+    display: block;
+    position: fixed;
+    top: 54rem;
+    left: 23rem;
+    background-color: brown;
+    width: 10rem;
+    border: 1px solid;
+    }
+}  */

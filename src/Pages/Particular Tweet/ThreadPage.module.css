@@ -1,0 +1,229 @@
+
+  .main {
+    display: grid;
+    grid-template-columns: 25rem 37.5rem 30rem;
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 1rem;
+    margin-top: -0.5rem;
+  }
+
+  .box h3 {
+    font-size: 1.3rem;
+  }
+  .arrow {
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    font-weight: 400;
+  }
+  .arrow:hover {
+    background-color: rgba(231, 230, 230, 0.7);
+  }
+
+  .postContainer {
+    display: flex;
+    gap: 0.8rem;
+    /* justify-content: space-between; */
+    border-top: 1px solid rgba(214, 214, 214, 0.5);
+    border-left: 1px solid rgba(214, 214, 214, 0.5);
+    border-right: 1px solid rgba(214, 214, 214, 0.5);
+   
+    padding: 1rem 1rem;
+  }
+  .userProfle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+  .postSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(164, 164, 164, 0.5);
+    /* padding: 0.1rem ; */
+    /* margin:1rem 1rem; */
+    /* margin-left: 1rem; */
+  }
+  .postUserName {
+    font-weight: bold;
+    /* margin-right: 0.5rem; */
+  }
+  .postHandleName {
+    color: rgb(91, 89, 89);
+  }
+  .tweetPic {
+    border-radius: 1.1rem;
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+  }
+  .tweetTextPic{
+    /* border-left: 1px solid rgb(203, 203, 203);
+    border-right: 1px solid rgb(203, 203, 203);
+    border-bottom: 1px solid rgb(203, 203, 203); */
+    padding: 1rem;
+  }
+
+  .tweetText {
+    font-size: 1.4rem;
+    width: 100%;
+  }
+  .iconsWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 30rem;
+    height: 3rem;
+  }
+  .subIconsWrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .icons {
+    color: rgb(88, 88, 88);
+    font-size: 1.7rem;
+  }
+  .iconText {
+    color: rgb(95, 95, 95);
+    font-size: 1rem;
+  }
+  .commentMain {
+    display: flex;
+    padding: 0.5rem 1rem;
+    border: 1px solid rgb(177, 177, 177);
+  }
+  .avatar {
+    font-size: 3.5rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+  .commenSubMain {
+    margin-left: 0.3rem;
+    width: 30rem;
+    /* border: 1px solid; */
+  }
+  .iconsCommentWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 25rem;
+    height: 2.5rem;
+  }
+  .commenSubName {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+
+    /* border: 1px solid; */
+  }
+  .commentNameHandleNAme {
+    /* font-size: 0.9rem; */
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.5rem;
+  }
+  
+
+@media screen and (max-width: 700px) {
+  .left {
+    display: none;
+  }
+  .box {
+    padding-left: 1rem;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 65;
+    background-color: white;
+    border: 1px solid white;
+  }
+  .postContainer {
+    margin-top: 5rem;
+    display: flex;
+    gap: 1.2rem;
+    padding-left: 1rem;
+    width: 100%;
+  }
+  .wrapper{
+    width: 39rem;
+    border-bottom: 1px solid rgb(190, 190, 190);
+  }
+  .postSubContainer {
+    padding-left: 1rem;
+    /* width: 35rem; */
+  }
+  .userProfle {
+    width: 4rem;
+  }
+  .postUserName {
+    font-weight: 800;
+    color: #00acee;
+    font-family: serif;
+    font-size: 1.3rem;
+  }
+  .tweetText {
+    font-size: 1.3rem;
+    /* padding: 0.5rem; */
+    font-weight: 500;
+    font-family: math;
+    /* margin-left: 4rem; */
+    /* padding-left: 4rem; */
+    padding-top: 1rem;
+    width: 34rem;
+  }
+  .tweetPic {
+    width: 30rem;
+  }
+  .iconsWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    /* border-top: 1px solid rgb(192, 190, 190);
+    border-bottom: 1px solid rgb(192, 190, 190); */
+  }
+  .icons {
+    font-size: 1.4rem;
+  }
+  .avatar {
+    width: 3rem;
+  }
+  .commentMain {
+    display: flex;
+    gap: 0.5rem;
+    border: 1px solid rgb(166, 166, 166);
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .commenSubMain {
+    /* width: 18rem; */
+  }
+  .iconsCommentWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 17rem;
+  }
+  .commenSubName {
+    font-weight: 700;
+  }
+  .tweetTextPic{
+    display: flex;
+    flex-direction: column;
+    width: 34rem;
+  }
+}

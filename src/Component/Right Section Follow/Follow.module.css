@@ -1,0 +1,92 @@
+@media screen and (min-width :700px) {
+    
+
+
+    .box{
+        background-color:  rgba(214, 214, 214, 0.4);
+        
+        
+        /* border: 1px solid; */
+        margin-top: 1rem;
+        padding-top: 0.2rem;
+        /* padding-bottom: 0.5rem; */
+        width: 23rem;
+        border-radius: 1.2rem;
+        /* height: min-content; */
+    }
+    .contentmain{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        /* padding-left: 0rem; */
+        /* padding-right: 1rem; */
+        padding: 0.6rem 0.7rem;
+        gap: 0.2rem;
+        cursor: pointer;
+    }
+    .contentmain:hover{
+        background-color: rgb(218 218 218 / 150%)
+       
+    }
+    .content{
+        height: min-content;
+        display: flex;
+     
+        flex-direction: column;
+       
+    }
+    .content1{
+      font-size: 1rem;
+      color : rgb(96, 96, 96);
+      text-shadow: 0.5px 0.5px black;
+    }
+    .upText{
+       
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    .ShowMore{
+        color: rgb(24, 141, 187);
+        padding-left: 1.5rem;
+        /* border: 1px solid; */
+        margin-top: 1rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        height: 2rem;
+        cursor: pointer;
+        
+    }
+    .ShowMore:hover{
+        background-color: rgb(218 218 218 / 51%);
+        /* height: 4rem; */
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        
+    }
+    .poperParent{
+        position: relative;
+    }
+    
+    .poper{
+        background-color: white;
+        position: absolute;
+        right: 2rem;
+        padding: 1rem;
+        width: 18rem;
+        border-radius: 2rem;
+        /* margin-top: 2rem; */
+    }
+   .followButton{
+    border-radius: 2rem;
+    height: 2rem;
+    width: 6rem;
+    background-color: black;
+    color:aliceblue;
+   }
+   .name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   }
+   
+    }

@@ -1,0 +1,225 @@
+
+  
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: n;
+    align-items: center;
+    width: 37rem;
+    height: 40rem;
+    padding-top: 0.5rem;
+    /* text-align: center; */
+  }
+
+  .heading {
+    font-size: 2rem;
+    line-height: calc(36rem / 16);
+    text-align: center;
+    font-family: "Arial";
+  }
+  .btn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.6rem 0;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: 0.01rem solid grey;
+  }
+
+  .btn:hover {
+    background-color: rgb(228, 225, 225);
+  }
+  .btnNext {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.6rem 0;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: 0.01rem solid grey;
+  }
+
+  .btnNext:hover {
+    background-color: rgb(35, 35, 35);
+  }
+  .or {
+    font-size: 1.2rem;
+  }
+  .input {
+    width: 100%;
+    height: 3.3rem;
+    margin-top: 0.75rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    width: 18.75rem;
+    border: 1px solid lightgray;
+    border-radius: 0.2rem;
+  }
+  .input:focus {
+    outline: 0.1rem solid #00acee;
+  }
+  .mainNextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    height: 38rem;
+  }
+  .nextContainer {
+    /* border:0.1rem solid; */
+    display: flex;
+    flex-direction: column;
+  }
+  .inputUserName {
+    width: 25rem !important;
+    height: 3.5rem;
+    margin-top: 1rem !important;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    width: 18.75rem;
+    border: 1px solid lightgray;
+    border-radius: 0.2rem;
+  }
+  .inputUserName:focus {
+    outline: 0.1rem solid #00acee;
+  }
+
+  .ForgotText {
+    color: #00acee;
+    font-size: 0.8rem;
+  }
+  .btnLogin {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 28rem !important;
+    height: 3.5rem !important;
+    border-radius: 27px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+    margin-bottom: 1.3rem;
+    cursor: pointer;
+    border: 0.01rem solid grey;
+  }
+  .btnLoginDisable {
+    background-color: rgb(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    width: 28rem !important;
+    height: 3.5rem !important;
+    border-radius: 27px;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 1rem;
+    margin-bottom: 1.3rem;
+    cursor: pointer;
+    border: 0.01rem solid grey;
+  }
+  .link{
+    text-decoration: none;
+    color:#00acee ;
+  }
+  .DialogWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 13, 13, 0.5);
+    height: 100vh;
+    
+  }
+  .Dialog{
+    border: 1px solid;
+    border-radius: 30px;
+    margin-top: 0.5rem;
+    background-color: white;
+    box-shadow: 0 0 8px 8px  rgba(92, 92, 92, 0.8); 
+   
+    
+
+  }
+ 
+
+
+
+@media screen and (max-width : 699px) {
+   .container{
+    /* background-color: #00acee; */
+    width: 18rem;
+    /* border: 1px solid; */
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .heading{
+    font-size: 1.3rem;
+  }
+  .btn{
+    width: 13rem;
+    height: 2.2rem;
+     border-radius: 20px;
+  }
+  .input{
+    width: 15rem;
+    height: 2.5rem;
+  } 
+.orLine{
+  display: none;
+}
+.btnNext{
+  width: 13rem;
+  height: 2.2rem;
+   border-radius: 20px;
+   background-color: black;
+   color: white;
+
+}
+.inputUserName{
+  width: 15rem !important;
+    height: 2.5rem;
+    /* margin-left: 4rem; */
+    font-size: 0.8rem;
+}
+.mainNextContainer{
+ width: 18rem ;
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 6rem;
+ /* margin: 1rem; */
+ /* justify-content: space-between; */
+}
+.nextContainer{
+  /* margin-left: 1rem; */
+}
+.btnLoginDisable{
+  width: 13rem !important;
+  height: 2.2rem;
+}
+.btnLogin {
+  width: 13rem !important;
+  height: 2.2rem;
+}
+.eye{display: none;}
+
+.DialogWrapper{
+  background-color: white;
+}
+.Dialog{
+box-shadow: none;
+border: none;
+}
+}

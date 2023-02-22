@@ -1,0 +1,97 @@
+.postContainer{
+    display: flex;
+    gap: 0.8rem;
+    /* justify-content: space-between; */
+    border: 1px solid  rgba(214, 214, 214, 0.5);
+    border-right: 0px solid;
+    padding: 1rem 1.5rem;
+    /* width: min-content; */
+    cursor:pointer;
+}
+.postContainer:hover{
+    background-color: rgba(214, 214, 214, 0.5);
+}
+.userProfle{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.postSubContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.postUserName{
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    text-shadow: 0.5px 1px rgb(255, 201, 201);
+}
+.postHandleName{
+    color: rgb(91, 89, 89);
+    font-size: 0.9rem;
+    text-shadow: 0.5px 1px black;
+}
+.tweetPic{
+    border-radius: 1.1rem;
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+}
+.iconsWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 30rem;
+    height: 2rem;
+    margin-top: 1rem;
+    /* gap: 3rem */
+
+} 
+.subIconsWrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icons{
+    color: gray;
+    font-size: 1.1rem;
+}
+.icons:hover{
+    font-size: 1.3rem;
+    
+}
+.iconText{
+    color: gray;
+    font-size: 0.8rem;
+}
+.tweetText{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   /* width: fit-content; */
+   height: max-content;
+    margin-top: 0.4rem;
+    width: 100%;
+    /* border: 1px solid; */
+
+}
+
+@media screen and (max-width : 700px) {
+    .userProfle{
+        width: 3rem;
+    }
+    .postUserName{
+        font-size: 1.4rem;
+    }
+    .postHandleName{
+        font-size: 1.2rem;
+    }
+    .tweetText{
+        font-size: 1.4rem;
+    }
+    .postSubContainer{
+        /* margin-top: 3rem; */
+     
+    }
+    
+}
