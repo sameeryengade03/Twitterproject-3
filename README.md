@@ -1,6 +1,5 @@
 #Out put
 
-
 https://drive.google.com/file/d/1KCskV3QSbVimnWL3S-vioF2bnXQ6wdDg/view?usp=sharing
 
 ![Screenshot (319)](https://user-images.githubusercontent.com/119597362/220849709-5acda5da-3596-43e7-add8-59c6173a58dc.png)
@@ -19,4 +18,5 @@ https://drive.google.com/file/d/1KCskV3QSbVimnWL3S-vioF2bnXQ6wdDg/view?usp=shari
 
 
 # Twitterproject-3
-Twitter clone
+Twitterclone
+
